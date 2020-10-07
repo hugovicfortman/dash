@@ -1,0 +1,159 @@
+/*	CSS slide effect for animations...	*/
+			@-webkit-keyframes slide{
+			  0% {
+				position:relative;
+				left:150%;
+			  }
+			  
+			  100% {
+				position:relative;
+				left:-150%;
+			  }
+			}
+			@-webkit-keyframes rain{
+			  0% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  
+			  20% {
+				background-image:url('../images/rain-1.png');
+			  }
+			  40% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  
+			  60% {
+				background-image:url('../images/rain-1.png');
+			  }
+			  80% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  100% {
+				background-image:url('../images/rain-1.png');
+			  }
+			}
+			
+			@-moz-keyframes slide{
+			  0% {
+				position:relative;
+				left:150%;
+			  }
+			  
+			  100% {
+				position:relative;
+				left:-150%;
+			  }
+			}
+			@-moz-keyframes rain{
+			  0% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  
+			  20% {
+				background-image:url('../images/rain-1.png');
+			  }
+			  40% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  
+			  60% {
+				background-image:url('../images/rain-1.png');
+			  }
+			  80% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  100% {
+				background-image:url('../images/rain-1.png');
+			  }
+			}
+			
+			@-ms-keyframes slide{
+			  0% {
+				position:relative;
+				left:150%;
+			  }
+			  
+			  100% {
+				position:relative;
+				left:-150%;
+			  }
+			}
+			@-ms-keyframes rain{
+			  0% {
+				background-image:url('../images/rain-0.png');
+				margin-left:10px;
+				margin-top:10px;
+			  }
+			  100% {
+				background-image:url('../images/rain-1.png');
+			  }
+			}
+			
+			@-o-keyframes slide{
+			  0% {
+				position:relative;
+				left:150%;
+			  }
+			  
+			  100% {
+				position:relative;
+				left:-150%;
+			  }
+			}
+			@-o-keyframes rain{
+			  0% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  
+			  20% {
+				background-image:url('../images/rain-1.png');
+			  }
+			  40% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  
+			  60% {
+				background-image:url('../images/rain-1.png');
+			  }
+			  80% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  100% {
+				background-image:url('../images/rain-1.png');
+			  }
+			}
+			
+			@-keyframes slide{
+			  0% {
+				position:relative;
+				left:150%;
+			  }
+			  
+			  100% {
+				position:relative;
+				left:-150%;
+			  }
+			}
+			@-keyframes rain{
+			  0% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  
+			  20% {
+				background-image:url('../images/rain-1.png');
+			  }
+			  40% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  
+			  60% {
+				background-image:url('../images/rain-1.png');
+			  }
+			  80% {
+				background-image:url('../images/rain-0.png');
+			  }
+			  100% {
+				background-image:url('../images/rain-1.png');
+			  }
+			}
+			

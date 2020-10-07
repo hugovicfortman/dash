@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="xl.js"></script>
+		<script type="text/javascript">
+			var test = {
+				name		: 'Test Json',
+				description	: 'This is a JSON test for passing values through frames...',
+				properties	: {
+					hp		: 100,
+					mana	: 75,
+					level	: 1
+				}
+			};
+			//window.parent.postMessage(JSON.stringify(test),'*');
+			//document.write(JSON.stringify(test));
+		</script>
+	</head>
+	<body>
+		<button onclick="getSubtasks('eLetters')"></button>
+	</body>
+</html>

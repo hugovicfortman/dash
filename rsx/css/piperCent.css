@@ -1,0 +1,1127 @@
+/*
+'	Includes Work from external project
+'
+'	'	Project Circle - By Adrian F�rschu�
+'	'	Copyright (c) 2016 Adrian F�rschu�
+'	'
+'	'	Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+'	'
+'	'	The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+'	'
+'	'	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+'
+*/
+
+.rect-auto,
+[completion="51"] .piPercent .slice,
+[completion="52"] .piPercent .slice,
+[completion="53"] .piPercent .slice,
+[completion="54"] .piPercent .slice,
+[completion="55"] .piPercent .slice,
+[completion="56"] .piPercent .slice,
+[completion="57"] .piPercent .slice,
+[completion="58"] .piPercent .slice,
+[completion="59"] .piPercent .slice,
+[completion="60"] .piPercent .slice,
+[completion="61"] .piPercent .slice,
+[completion="62"] .piPercent .slice,
+[completion="63"] .piPercent .slice,
+[completion="64"] .piPercent .slice,
+[completion="65"] .piPercent .slice,
+[completion="66"] .piPercent .slice,
+[completion="67"] .piPercent .slice,
+[completion="68"] .piPercent .slice,
+[completion="69"] .piPercent .slice,
+[completion="70"] .piPercent .slice,
+[completion="71"] .piPercent .slice,
+[completion="72"] .piPercent .slice,
+[completion="73"] .piPercent .slice,
+[completion="74"] .piPercent .slice,
+[completion="75"] .piPercent .slice,
+[completion="76"] .piPercent .slice,
+[completion="77"] .piPercent .slice,
+[completion="78"] .piPercent .slice,
+[completion="79"] .piPercent .slice,
+[completion="80"] .piPercent .slice,
+[completion="81"] .piPercent .slice,
+[completion="82"] .piPercent .slice,
+[completion="83"] .piPercent .slice,
+[completion="84"] .piPercent .slice,
+[completion="85"] .piPercent .slice,
+[completion="86"] .piPercent .slice,
+[completion="87"] .piPercent .slice,
+[completion="88"] .piPercent .slice,
+[completion="89"] .piPercent .slice,
+[completion="90"] .piPercent .slice,
+[completion="91"] .piPercent .slice,
+[completion="92"] .piPercent .slice,
+[completion="93"] .piPercent .slice,
+[completion="94"] .piPercent .slice,
+[completion="95"] .piPercent .slice,
+[completion="96"] .piPercent .slice,
+[completion="97"] .piPercent .slice,
+[completion="98"] .piPercent .slice,
+[completion="99"] .piPercent .slice,
+[completion="100"] .piPercent .slice {
+  clip: rect(auto, auto, auto, auto);
+}
+.pie,
+.piPercent .bar,
+[completion="51"] .piPercent .fill,
+[completion="52"] .piPercent .fill,
+[completion="53"] .piPercent .fill,
+[completion="54"] .piPercent .fill,
+[completion="55"] .piPercent .fill,
+[completion="56"] .piPercent .fill,
+[completion="57"] .piPercent .fill,
+[completion="58"] .piPercent .fill,
+[completion="59"] .piPercent .fill,
+[completion="60"] .piPercent .fill,
+[completion="61"] .piPercent .fill,
+[completion="62"] .piPercent .fill,
+[completion="63"] .piPercent .fill,
+[completion="64"] .piPercent .fill,
+[completion="65"] .piPercent .fill,
+[completion="66"] .piPercent .fill,
+[completion="67"] .piPercent .fill,
+[completion="68"] .piPercent .fill,
+[completion="69"] .piPercent .fill,
+[completion="70"] .piPercent .fill,
+[completion="71"] .piPercent .fill,
+[completion="72"] .piPercent .fill,
+[completion="73"] .piPercent .fill,
+[completion="74"] .piPercent .fill,
+[completion="75"] .piPercent .fill,
+[completion="76"] .piPercent .fill,
+[completion="77"] .piPercent .fill,
+[completion="78"] .piPercent .fill,
+[completion="79"] .piPercent .fill,
+[completion="80"] .piPercent .fill,
+[completion="81"] .piPercent .fill,
+[completion="82"] .piPercent .fill,
+[completion="83"] .piPercent .fill,
+[completion="84"] .piPercent .fill,
+[completion="85"] .piPercent .fill,
+[completion="86"] .piPercent .fill,
+[completion="87"] .piPercent .fill,
+[completion="88"] .piPercent .fill,
+[completion="89"] .piPercent .fill,
+[completion="90"] .piPercent .fill,
+[completion="91"] .piPercent .fill,
+[completion="92"] .piPercent .fill,
+[completion="93"] .piPercent .fill,
+[completion="94"] .piPercent .fill,
+[completion="95"] .piPercent .fill,
+[completion="96"] .piPercent .fill,
+[completion="97"] .piPercent .fill,
+[completion="98"] .piPercent .fill,
+[completion="99"] .piPercent .fill,
+[completion="100"] .piPercent .fill {
+  position: absolute;
+  border: 0.08em solid yellow;/*#307bbb;*/
+  width: 0.84em;
+  height: 0.84em;
+  clip: rect(0em, 0.5em, 1em, 0em);
+  border-radius: 50%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.pie-fill,
+[completion="51"] .piPercent .bar:after,
+[completion="51"] .piPercent .fill,
+[completion="52"] .piPercent .bar:after,
+[completion="52"] .piPercent .fill,
+[completion="53"] .piPercent .bar:after,
+[completion="53"] .piPercent .fill,
+[completion="54"] .piPercent .bar:after,
+[completion="54"] .piPercent .fill,
+[completion="55"] .piPercent .bar:after,
+[completion="55"] .piPercent .fill,
+[completion="56"] .piPercent .bar:after,
+[completion="56"] .piPercent .fill,
+[completion="57"] .piPercent .bar:after,
+[completion="57"] .piPercent .fill,
+[completion="58"] .piPercent .bar:after,
+[completion="58"] .piPercent .fill,
+[completion="59"] .piPercent .bar:after,
+[completion="59"] .piPercent .fill,
+[completion="60"] .piPercent .bar:after,
+[completion="60"] .piPercent .fill,
+[completion="61"] .piPercent .bar:after,
+[completion="61"] .piPercent .fill,
+[completion="62"] .piPercent .bar:after,
+[completion="62"] .piPercent .fill,
+[completion="63"] .piPercent .bar:after,
+[completion="63"] .piPercent .fill,
+[completion="64"] .piPercent .bar:after,
+[completion="64"] .piPercent .fill,
+[completion="65"] .piPercent .bar:after,
+[completion="65"] .piPercent .fill,
+[completion="66"] .piPercent .bar:after,
+[completion="66"] .piPercent .fill,
+[completion="67"] .piPercent .bar:after,
+[completion="67"] .piPercent .fill,
+[completion="68"] .piPercent .bar:after,
+[completion="68"] .piPercent .fill,
+[completion="69"] .piPercent .bar:after,
+[completion="69"] .piPercent .fill,
+[completion="70"] .piPercent .bar:after,
+[completion="70"] .piPercent .fill,
+[completion="71"] .piPercent .bar:after,
+[completion="71"] .piPercent .fill,
+[completion="72"] .piPercent .bar:after,
+[completion="72"] .piPercent .fill,
+[completion="73"] .piPercent .bar:after,
+[completion="73"] .piPercent .fill,
+[completion="74"] .piPercent .bar:after,
+[completion="74"] .piPercent .fill,
+[completion="75"] .piPercent .bar:after,
+[completion="75"] .piPercent .fill,
+[completion="76"] .piPercent .bar:after,
+[completion="76"] .piPercent .fill,
+[completion="77"] .piPercent .bar:after,
+[completion="77"] .piPercent .fill,
+[completion="78"] .piPercent .bar:after,
+[completion="78"] .piPercent .fill,
+[completion="79"] .piPercent .bar:after,
+[completion="79"] .piPercent .fill,
+[completion="80"] .piPercent .bar:after,
+[completion="80"] .piPercent .fill,
+[completion="81"] .piPercent .bar:after,
+[completion="81"] .piPercent .fill,
+[completion="82"] .piPercent .bar:after,
+[completion="82"] .piPercent .fill,
+[completion="83"] .piPercent .bar:after,
+[completion="83"] .piPercent .fill,
+[completion="84"] .piPercent .bar:after,
+[completion="84"] .piPercent .fill,
+[completion="85"] .piPercent .bar:after,
+[completion="85"] .piPercent .fill,
+[completion="86"] .piPercent .bar:after,
+[completion="86"] .piPercent .fill,
+[completion="87"] .piPercent .bar:after,
+[completion="87"] .piPercent .fill,
+[completion="88"] .piPercent .bar:after,
+[completion="88"] .piPercent .fill,
+[completion="89"] .piPercent .bar:after,
+[completion="89"] .piPercent .fill,
+[completion="90"] .piPercent .bar:after,
+[completion="90"] .piPercent .fill,
+[completion="91"] .piPercent .bar:after,
+[completion="91"] .piPercent .fill,
+[completion="92"] .piPercent .bar:after,
+[completion="92"] .piPercent .fill,
+[completion="93"] .piPercent .bar:after,
+[completion="93"] .piPercent .fill,
+[completion="94"] .piPercent .bar:after,
+[completion="94"] .piPercent .fill,
+[completion="95"] .piPercent .bar:after,
+[completion="95"] .piPercent .fill,
+[completion="96"] .piPercent .bar:after,
+[completion="96"] .piPercent .fill,
+[completion="97"] .piPercent .bar:after,
+[completion="97"] .piPercent .fill,
+[completion="98"] .piPercent .bar:after,
+[completion="98"] .piPercent .fill,
+[completion="99"] .piPercent .bar:after,
+[completion="99"] .piPercent .fill,
+[completion="100"] .piPercent .bar:after,
+[completion="100"] .piPercent .fill {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.piPercent {
+  position: relative;
+  font-size: 120px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  float: left;
+  margin: 0 0.1em 0.1em 0;
+  background-color: #cccccc;
+}
+.piPercent *,
+.piPercent *:before,
+.piPercent *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.piPercent.center {
+  float: none;
+  margin: 0 auto;
+}
+.piPercent.big {
+  font-size: 240px;
+}
+.piPercent.small {
+  font-size: 80px;
+}
+.piPercent > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 5em;
+  line-height: 5em;
+  font-size: 0.2em;
+  color: #cccccc;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.piPercent:after {
+  position: absolute;
+  top: 0.08em;
+  left: 0.08em;
+  display: block;
+  content: " ";
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  width: 0.84em;
+  height: 0.84em;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+.piPercent .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(0em, 1em, 1em, 0.5em);
+}
+[completion="1"] .piPercent .bar {
+  -webkit-transform: rotate(3.6deg);
+  -moz-transform: rotate(3.6deg);
+  -ms-transform: rotate(3.6deg);
+  -o-transform: rotate(3.6deg);
+  transform: rotate(3.6deg);
+}
+[completion="2"] .piPercent .bar {
+  -webkit-transform: rotate(7.2deg);
+  -moz-transform: rotate(7.2deg);
+  -ms-transform: rotate(7.2deg);
+  -o-transform: rotate(7.2deg);
+  transform: rotate(7.2deg);
+}
+[completion="3"] .piPercent .bar {
+  -webkit-transform: rotate(10.8deg);
+  -moz-transform: rotate(10.8deg);
+  -ms-transform: rotate(10.8deg);
+  -o-transform: rotate(10.8deg);
+  transform: rotate(10.8deg);
+}
+[completion="4"] .piPercent .bar {
+  -webkit-transform: rotate(14.4deg);
+  -moz-transform: rotate(14.4deg);
+  -ms-transform: rotate(14.4deg);
+  -o-transform: rotate(14.4deg);
+  transform: rotate(14.4deg);
+}
+[completion="5"] .piPercent .bar {
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+[completion="6"] .piPercent .bar {
+  -webkit-transform: rotate(21.6deg);
+  -moz-transform: rotate(21.6deg);
+  -ms-transform: rotate(21.6deg);
+  -o-transform: rotate(21.6deg);
+  transform: rotate(21.6deg);
+}
+[completion="7"] .piPercent .bar {
+  -webkit-transform: rotate(25.2deg);
+  -moz-transform: rotate(25.2deg);
+  -ms-transform: rotate(25.2deg);
+  -o-transform: rotate(25.2deg);
+  transform: rotate(25.2deg);
+}
+[completion="8"] .piPercent .bar {
+  -webkit-transform: rotate(28.8deg);
+  -moz-transform: rotate(28.8deg);
+  -ms-transform: rotate(28.8deg);
+  -o-transform: rotate(28.8deg);
+  transform: rotate(28.8deg);
+}
+[completion="9"] .piPercent .bar {
+  -webkit-transform: rotate(32.4deg);
+  -moz-transform: rotate(32.4deg);
+  -ms-transform: rotate(32.4deg);
+  -o-transform: rotate(32.4deg);
+  transform: rotate(32.4deg);
+}
+[completion="10"] .piPercent .bar {
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+[completion="11"] .piPercent .bar {
+  -webkit-transform: rotate(39.6deg);
+  -moz-transform: rotate(39.6deg);
+  -ms-transform: rotate(39.6deg);
+  -o-transform: rotate(39.6deg);
+  transform: rotate(39.6deg);
+}
+[completion="12"] .piPercent .bar {
+  -webkit-transform: rotate(43.2deg);
+  -moz-transform: rotate(43.2deg);
+  -ms-transform: rotate(43.2deg);
+  -o-transform: rotate(43.2deg);
+  transform: rotate(43.2deg);
+}
+[completion="13"] .piPercent .bar {
+  -webkit-transform: rotate(46.800000000000004deg);
+  -moz-transform: rotate(46.800000000000004deg);
+  -ms-transform: rotate(46.800000000000004deg);
+  -o-transform: rotate(46.800000000000004deg);
+  transform: rotate(46.800000000000004deg);
+}
+[completion="14"] .piPercent .bar {
+  -webkit-transform: rotate(50.4deg);
+  -moz-transform: rotate(50.4deg);
+  -ms-transform: rotate(50.4deg);
+  -o-transform: rotate(50.4deg);
+  transform: rotate(50.4deg);
+}
+[completion="15"] .piPercent .bar {
+  -webkit-transform: rotate(54deg);
+  -moz-transform: rotate(54deg);
+  -ms-transform: rotate(54deg);
+  -o-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+[completion="16"] .piPercent .bar {
+  -webkit-transform: rotate(57.6deg);
+  -moz-transform: rotate(57.6deg);
+  -ms-transform: rotate(57.6deg);
+  -o-transform: rotate(57.6deg);
+  transform: rotate(57.6deg);
+}
+[completion="17"] .piPercent .bar {
+  -webkit-transform: rotate(61.2deg);
+  -moz-transform: rotate(61.2deg);
+  -ms-transform: rotate(61.2deg);
+  -o-transform: rotate(61.2deg);
+  transform: rotate(61.2deg);
+}
+[completion="18"] .piPercent .bar {
+  -webkit-transform: rotate(64.8deg);
+  -moz-transform: rotate(64.8deg);
+  -ms-transform: rotate(64.8deg);
+  -o-transform: rotate(64.8deg);
+  transform: rotate(64.8deg);
+}
+[completion="19"] .piPercent .bar {
+  -webkit-transform: rotate(68.4deg);
+  -moz-transform: rotate(68.4deg);
+  -ms-transform: rotate(68.4deg);
+  -o-transform: rotate(68.4deg);
+  transform: rotate(68.4deg);
+}
+[completion="20"] .piPercent .bar {
+  -webkit-transform: rotate(72deg);
+  -moz-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  -o-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+[completion="21"] .piPercent .bar {
+  -webkit-transform: rotate(75.60000000000001deg);
+  -moz-transform: rotate(75.60000000000001deg);
+  -ms-transform: rotate(75.60000000000001deg);
+  -o-transform: rotate(75.60000000000001deg);
+  transform: rotate(75.60000000000001deg);
+}
+[completion="22"] .piPercent .bar {
+  -webkit-transform: rotate(79.2deg);
+  -moz-transform: rotate(79.2deg);
+  -ms-transform: rotate(79.2deg);
+  -o-transform: rotate(79.2deg);
+  transform: rotate(79.2deg);
+}
+[completion="23"] .piPercent .bar {
+  -webkit-transform: rotate(82.8deg);
+  -moz-transform: rotate(82.8deg);
+  -ms-transform: rotate(82.8deg);
+  -o-transform: rotate(82.8deg);
+  transform: rotate(82.8deg);
+}
+[completion="24"] .piPercent .bar {
+  -webkit-transform: rotate(86.4deg);
+  -moz-transform: rotate(86.4deg);
+  -ms-transform: rotate(86.4deg);
+  -o-transform: rotate(86.4deg);
+  transform: rotate(86.4deg);
+}
+[completion="25"] .piPercent .bar {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+[completion="26"] .piPercent .bar {
+  -webkit-transform: rotate(93.60000000000001deg);
+  -moz-transform: rotate(93.60000000000001deg);
+  -ms-transform: rotate(93.60000000000001deg);
+  -o-transform: rotate(93.60000000000001deg);
+  transform: rotate(93.60000000000001deg);
+}
+[completion="27"] .piPercent .bar {
+  -webkit-transform: rotate(97.2deg);
+  -moz-transform: rotate(97.2deg);
+  -ms-transform: rotate(97.2deg);
+  -o-transform: rotate(97.2deg);
+  transform: rotate(97.2deg);
+}
+[completion="28"] .piPercent .bar {
+  -webkit-transform: rotate(100.8deg);
+  -moz-transform: rotate(100.8deg);
+  -ms-transform: rotate(100.8deg);
+  -o-transform: rotate(100.8deg);
+  transform: rotate(100.8deg);
+}
+[completion="29"] .piPercent .bar {
+  -webkit-transform: rotate(104.4deg);
+  -moz-transform: rotate(104.4deg);
+  -ms-transform: rotate(104.4deg);
+  -o-transform: rotate(104.4deg);
+  transform: rotate(104.4deg);
+}
+[completion="30"] .piPercent .bar {
+  -webkit-transform: rotate(108deg);
+  -moz-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  -o-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+[completion="31"] .piPercent .bar {
+  -webkit-transform: rotate(111.60000000000001deg);
+  -moz-transform: rotate(111.60000000000001deg);
+  -ms-transform: rotate(111.60000000000001deg);
+  -o-transform: rotate(111.60000000000001deg);
+  transform: rotate(111.60000000000001deg);
+}
+[completion="32"] .piPercent .bar {
+  -webkit-transform: rotate(115.2deg);
+  -moz-transform: rotate(115.2deg);
+  -ms-transform: rotate(115.2deg);
+  -o-transform: rotate(115.2deg);
+  transform: rotate(115.2deg);
+}
+[completion="33"] .piPercent .bar {
+  -webkit-transform: rotate(118.8deg);
+  -moz-transform: rotate(118.8deg);
+  -ms-transform: rotate(118.8deg);
+  -o-transform: rotate(118.8deg);
+  transform: rotate(118.8deg);
+}
+[completion="34"] .piPercent .bar {
+  -webkit-transform: rotate(122.4deg);
+  -moz-transform: rotate(122.4deg);
+  -ms-transform: rotate(122.4deg);
+  -o-transform: rotate(122.4deg);
+  transform: rotate(122.4deg);
+}
+[completion="35"] .piPercent .bar {
+  -webkit-transform: rotate(126deg);
+  -moz-transform: rotate(126deg);
+  -ms-transform: rotate(126deg);
+  -o-transform: rotate(126deg);
+  transform: rotate(126deg);
+}
+[completion="36"] .piPercent .bar {
+  -webkit-transform: rotate(129.6deg);
+  -moz-transform: rotate(129.6deg);
+  -ms-transform: rotate(129.6deg);
+  -o-transform: rotate(129.6deg);
+  transform: rotate(129.6deg);
+}
+[completion="37"] .piPercent .bar {
+  -webkit-transform: rotate(133.20000000000002deg);
+  -moz-transform: rotate(133.20000000000002deg);
+  -ms-transform: rotate(133.20000000000002deg);
+  -o-transform: rotate(133.20000000000002deg);
+  transform: rotate(133.20000000000002deg);
+}
+[completion="38"] .piPercent .bar {
+  -webkit-transform: rotate(136.8deg);
+  -moz-transform: rotate(136.8deg);
+  -ms-transform: rotate(136.8deg);
+  -o-transform: rotate(136.8deg);
+  transform: rotate(136.8deg);
+}
+[completion="39"] .piPercent .bar {
+  -webkit-transform: rotate(140.4deg);
+  -moz-transform: rotate(140.4deg);
+  -ms-transform: rotate(140.4deg);
+  -o-transform: rotate(140.4deg);
+  transform: rotate(140.4deg);
+}
+[completion="40"] .piPercent .bar {
+  -webkit-transform: rotate(144deg);
+  -moz-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  -o-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+[completion="41"] .piPercent .bar {
+  -webkit-transform: rotate(147.6deg);
+  -moz-transform: rotate(147.6deg);
+  -ms-transform: rotate(147.6deg);
+  -o-transform: rotate(147.6deg);
+  transform: rotate(147.6deg);
+}
+[completion="42"] .piPercent .bar {
+  -webkit-transform: rotate(151.20000000000002deg);
+  -moz-transform: rotate(151.20000000000002deg);
+  -ms-transform: rotate(151.20000000000002deg);
+  -o-transform: rotate(151.20000000000002deg);
+  transform: rotate(151.20000000000002deg);
+}
+[completion="43"] .piPercent .bar {
+  -webkit-transform: rotate(154.8deg);
+  -moz-transform: rotate(154.8deg);
+  -ms-transform: rotate(154.8deg);
+  -o-transform: rotate(154.8deg);
+  transform: rotate(154.8deg);
+}
+[completion="44"] .piPercent .bar {
+  -webkit-transform: rotate(158.4deg);
+  -moz-transform: rotate(158.4deg);
+  -ms-transform: rotate(158.4deg);
+  -o-transform: rotate(158.4deg);
+  transform: rotate(158.4deg);
+}
+[completion="45"] .piPercent .bar {
+  -webkit-transform: rotate(162deg);
+  -moz-transform: rotate(162deg);
+  -ms-transform: rotate(162deg);
+  -o-transform: rotate(162deg);
+  transform: rotate(162deg);
+}
+[completion="46"] .piPercent .bar {
+  -webkit-transform: rotate(165.6deg);
+  -moz-transform: rotate(165.6deg);
+  -ms-transform: rotate(165.6deg);
+  -o-transform: rotate(165.6deg);
+  transform: rotate(165.6deg);
+}
+[completion="47"] .piPercent .bar {
+  -webkit-transform: rotate(169.20000000000002deg);
+  -moz-transform: rotate(169.20000000000002deg);
+  -ms-transform: rotate(169.20000000000002deg);
+  -o-transform: rotate(169.20000000000002deg);
+  transform: rotate(169.20000000000002deg);
+}
+[completion="48"] .piPercent .bar {
+  -webkit-transform: rotate(172.8deg);
+  -moz-transform: rotate(172.8deg);
+  -ms-transform: rotate(172.8deg);
+  -o-transform: rotate(172.8deg);
+  transform: rotate(172.8deg);
+}
+[completion="49"] .piPercent .bar {
+  -webkit-transform: rotate(176.4deg);
+  -moz-transform: rotate(176.4deg);
+  -ms-transform: rotate(176.4deg);
+  -o-transform: rotate(176.4deg);
+  transform: rotate(176.4deg);
+}
+[completion="50"] .piPercent .bar {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+[completion="51"] .piPercent .bar {
+  -webkit-transform: rotate(183.6deg);
+  -moz-transform: rotate(183.6deg);
+  -ms-transform: rotate(183.6deg);
+  -o-transform: rotate(183.6deg);
+  transform: rotate(183.6deg);
+}
+[completion="52"] .piPercent .bar {
+  -webkit-transform: rotate(187.20000000000002deg);
+  -moz-transform: rotate(187.20000000000002deg);
+  -ms-transform: rotate(187.20000000000002deg);
+  -o-transform: rotate(187.20000000000002deg);
+  transform: rotate(187.20000000000002deg);
+}
+[completion="53"] .piPercent .bar {
+  -webkit-transform: rotate(190.8deg);
+  -moz-transform: rotate(190.8deg);
+  -ms-transform: rotate(190.8deg);
+  -o-transform: rotate(190.8deg);
+  transform: rotate(190.8deg);
+}
+[completion="54"] .piPercent .bar {
+  -webkit-transform: rotate(194.4deg);
+  -moz-transform: rotate(194.4deg);
+  -ms-transform: rotate(194.4deg);
+  -o-transform: rotate(194.4deg);
+  transform: rotate(194.4deg);
+}
+[completion="55"] .piPercent .bar {
+  -webkit-transform: rotate(198deg);
+  -moz-transform: rotate(198deg);
+  -ms-transform: rotate(198deg);
+  -o-transform: rotate(198deg);
+  transform: rotate(198deg);
+}
+[completion="56"] .piPercent .bar {
+  -webkit-transform: rotate(201.6deg);
+  -moz-transform: rotate(201.6deg);
+  -ms-transform: rotate(201.6deg);
+  -o-transform: rotate(201.6deg);
+  transform: rotate(201.6deg);
+}
+[completion="57"] .piPercent .bar {
+  -webkit-transform: rotate(205.20000000000002deg);
+  -moz-transform: rotate(205.20000000000002deg);
+  -ms-transform: rotate(205.20000000000002deg);
+  -o-transform: rotate(205.20000000000002deg);
+  transform: rotate(205.20000000000002deg);
+}
+[completion="58"] .piPercent .bar {
+  -webkit-transform: rotate(208.8deg);
+  -moz-transform: rotate(208.8deg);
+  -ms-transform: rotate(208.8deg);
+  -o-transform: rotate(208.8deg);
+  transform: rotate(208.8deg);
+}
+[completion="59"] .piPercent .bar {
+  -webkit-transform: rotate(212.4deg);
+  -moz-transform: rotate(212.4deg);
+  -ms-transform: rotate(212.4deg);
+  -o-transform: rotate(212.4deg);
+  transform: rotate(212.4deg);
+}
+[completion="60"] .piPercent .bar {
+  -webkit-transform: rotate(216deg);
+  -moz-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  -o-transform: rotate(216deg);
+  transform: rotate(216deg);
+}
+[completion="61"] .piPercent .bar {
+  -webkit-transform: rotate(219.6deg);
+  -moz-transform: rotate(219.6deg);
+  -ms-transform: rotate(219.6deg);
+  -o-transform: rotate(219.6deg);
+  transform: rotate(219.6deg);
+}
+[completion="62"] .piPercent .bar {
+  -webkit-transform: rotate(223.20000000000002deg);
+  -moz-transform: rotate(223.20000000000002deg);
+  -ms-transform: rotate(223.20000000000002deg);
+  -o-transform: rotate(223.20000000000002deg);
+  transform: rotate(223.20000000000002deg);
+}
+[completion="63"] .piPercent .bar {
+  -webkit-transform: rotate(226.8deg);
+  -moz-transform: rotate(226.8deg);
+  -ms-transform: rotate(226.8deg);
+  -o-transform: rotate(226.8deg);
+  transform: rotate(226.8deg);
+}
+[completion="64"] .piPercent .bar {
+  -webkit-transform: rotate(230.4deg);
+  -moz-transform: rotate(230.4deg);
+  -ms-transform: rotate(230.4deg);
+  -o-transform: rotate(230.4deg);
+  transform: rotate(230.4deg);
+}
+[completion="65"] .piPercent .bar {
+  -webkit-transform: rotate(234deg);
+  -moz-transform: rotate(234deg);
+  -ms-transform: rotate(234deg);
+  -o-transform: rotate(234deg);
+  transform: rotate(234deg);
+}
+[completion="66"] .piPercent .bar {
+  -webkit-transform: rotate(237.6deg);
+  -moz-transform: rotate(237.6deg);
+  -ms-transform: rotate(237.6deg);
+  -o-transform: rotate(237.6deg);
+  transform: rotate(237.6deg);
+}
+[completion="67"] .piPercent .bar {
+  -webkit-transform: rotate(241.20000000000002deg);
+  -moz-transform: rotate(241.20000000000002deg);
+  -ms-transform: rotate(241.20000000000002deg);
+  -o-transform: rotate(241.20000000000002deg);
+  transform: rotate(241.20000000000002deg);
+}
+[completion="68"] .piPercent .bar {
+  -webkit-transform: rotate(244.8deg);
+  -moz-transform: rotate(244.8deg);
+  -ms-transform: rotate(244.8deg);
+  -o-transform: rotate(244.8deg);
+  transform: rotate(244.8deg);
+}
+[completion="69"] .piPercent .bar {
+  -webkit-transform: rotate(248.4deg);
+  -moz-transform: rotate(248.4deg);
+  -ms-transform: rotate(248.4deg);
+  -o-transform: rotate(248.4deg);
+  transform: rotate(248.4deg);
+}
+[completion="70"] .piPercent .bar {
+  -webkit-transform: rotate(252deg);
+  -moz-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  -o-transform: rotate(252deg);
+  transform: rotate(252deg);
+}
+[completion="71"] .piPercent .bar {
+  -webkit-transform: rotate(255.6deg);
+  -moz-transform: rotate(255.6deg);
+  -ms-transform: rotate(255.6deg);
+  -o-transform: rotate(255.6deg);
+  transform: rotate(255.6deg);
+}
+[completion="72"] .piPercent .bar {
+  -webkit-transform: rotate(259.2deg);
+  -moz-transform: rotate(259.2deg);
+  -ms-transform: rotate(259.2deg);
+  -o-transform: rotate(259.2deg);
+  transform: rotate(259.2deg);
+}
+[completion="73"] .piPercent .bar {
+  -webkit-transform: rotate(262.8deg);
+  -moz-transform: rotate(262.8deg);
+  -ms-transform: rotate(262.8deg);
+  -o-transform: rotate(262.8deg);
+  transform: rotate(262.8deg);
+}
+[completion="74"] .piPercent .bar {
+  -webkit-transform: rotate(266.40000000000003deg);
+  -moz-transform: rotate(266.40000000000003deg);
+  -ms-transform: rotate(266.40000000000003deg);
+  -o-transform: rotate(266.40000000000003deg);
+  transform: rotate(266.40000000000003deg);
+}
+[completion="75"] .piPercent .bar {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+[completion="76"] .piPercent .bar {
+  -webkit-transform: rotate(273.6deg);
+  -moz-transform: rotate(273.6deg);
+  -ms-transform: rotate(273.6deg);
+  -o-transform: rotate(273.6deg);
+  transform: rotate(273.6deg);
+}
+[completion="77"] .piPercent .bar {
+  -webkit-transform: rotate(277.2deg);
+  -moz-transform: rotate(277.2deg);
+  -ms-transform: rotate(277.2deg);
+  -o-transform: rotate(277.2deg);
+  transform: rotate(277.2deg);
+}
+[completion="78"] .piPercent .bar {
+  -webkit-transform: rotate(280.8deg);
+  -moz-transform: rotate(280.8deg);
+  -ms-transform: rotate(280.8deg);
+  -o-transform: rotate(280.8deg);
+  transform: rotate(280.8deg);
+}
+[completion="79"] .piPercent .bar {
+  -webkit-transform: rotate(284.40000000000003deg);
+  -moz-transform: rotate(284.40000000000003deg);
+  -ms-transform: rotate(284.40000000000003deg);
+  -o-transform: rotate(284.40000000000003deg);
+  transform: rotate(284.40000000000003deg);
+}
+[completion="80"] .piPercent .bar {
+  -webkit-transform: rotate(288deg);
+  -moz-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  -o-transform: rotate(288deg);
+  transform: rotate(288deg);
+}
+[completion="81"] .piPercent .bar {
+  -webkit-transform: rotate(291.6deg);
+  -moz-transform: rotate(291.6deg);
+  -ms-transform: rotate(291.6deg);
+  -o-transform: rotate(291.6deg);
+  transform: rotate(291.6deg);
+}
+[completion="82"] .piPercent .bar {
+  -webkit-transform: rotate(295.2deg);
+  -moz-transform: rotate(295.2deg);
+  -ms-transform: rotate(295.2deg);
+  -o-transform: rotate(295.2deg);
+  transform: rotate(295.2deg);
+}
+[completion="83"] .piPercent .bar {
+  -webkit-transform: rotate(298.8deg);
+  -moz-transform: rotate(298.8deg);
+  -ms-transform: rotate(298.8deg);
+  -o-transform: rotate(298.8deg);
+  transform: rotate(298.8deg);
+}
+[completion="84"] .piPercent .bar {
+  -webkit-transform: rotate(302.40000000000003deg);
+  -moz-transform: rotate(302.40000000000003deg);
+  -ms-transform: rotate(302.40000000000003deg);
+  -o-transform: rotate(302.40000000000003deg);
+  transform: rotate(302.40000000000003deg);
+}
+[completion="85"] .piPercent .bar {
+  -webkit-transform: rotate(306deg);
+  -moz-transform: rotate(306deg);
+  -ms-transform: rotate(306deg);
+  -o-transform: rotate(306deg);
+  transform: rotate(306deg);
+}
+[completion="86"] .piPercent .bar {
+  -webkit-transform: rotate(309.6deg);
+  -moz-transform: rotate(309.6deg);
+  -ms-transform: rotate(309.6deg);
+  -o-transform: rotate(309.6deg);
+  transform: rotate(309.6deg);
+}
+[completion="87"] .piPercent .bar {
+  -webkit-transform: rotate(313.2deg);
+  -moz-transform: rotate(313.2deg);
+  -ms-transform: rotate(313.2deg);
+  -o-transform: rotate(313.2deg);
+  transform: rotate(313.2deg);
+}
+[completion="88"] .piPercent .bar {
+  -webkit-transform: rotate(316.8deg);
+  -moz-transform: rotate(316.8deg);
+  -ms-transform: rotate(316.8deg);
+  -o-transform: rotate(316.8deg);
+  transform: rotate(316.8deg);
+}
+[completion="89"] .piPercent .bar {
+  -webkit-transform: rotate(320.40000000000003deg);
+  -moz-transform: rotate(320.40000000000003deg);
+  -ms-transform: rotate(320.40000000000003deg);
+  -o-transform: rotate(320.40000000000003deg);
+  transform: rotate(320.40000000000003deg);
+}
+[completion="90"] .piPercent .bar {
+  -webkit-transform: rotate(324deg);
+  -moz-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  -o-transform: rotate(324deg);
+  transform: rotate(324deg);
+}
+[completion="91"] .piPercent .bar {
+  -webkit-transform: rotate(327.6deg);
+  -moz-transform: rotate(327.6deg);
+  -ms-transform: rotate(327.6deg);
+  -o-transform: rotate(327.6deg);
+  transform: rotate(327.6deg);
+}
+[completion="92"] .piPercent .bar {
+  -webkit-transform: rotate(331.2deg);
+  -moz-transform: rotate(331.2deg);
+  -ms-transform: rotate(331.2deg);
+  -o-transform: rotate(331.2deg);
+  transform: rotate(331.2deg);
+}
+[completion="93"] .piPercent .bar {
+  -webkit-transform: rotate(334.8deg);
+  -moz-transform: rotate(334.8deg);
+  -ms-transform: rotate(334.8deg);
+  -o-transform: rotate(334.8deg);
+  transform: rotate(334.8deg);
+}
+[completion="94"] .piPercent .bar {
+  -webkit-transform: rotate(338.40000000000003deg);
+  -moz-transform: rotate(338.40000000000003deg);
+  -ms-transform: rotate(338.40000000000003deg);
+  -o-transform: rotate(338.40000000000003deg);
+  transform: rotate(338.40000000000003deg);
+}
+[completion="95"] .piPercent .bar {
+  -webkit-transform: rotate(342deg);
+  -moz-transform: rotate(342deg);
+  -ms-transform: rotate(342deg);
+  -o-transform: rotate(342deg);
+  transform: rotate(342deg);
+}
+[completion="96"] .piPercent .bar {
+  -webkit-transform: rotate(345.6deg);
+  -moz-transform: rotate(345.6deg);
+  -ms-transform: rotate(345.6deg);
+  -o-transform: rotate(345.6deg);
+  transform: rotate(345.6deg);
+}
+[completion="97"] .piPercent .bar {
+  -webkit-transform: rotate(349.2deg);
+  -moz-transform: rotate(349.2deg);
+  -ms-transform: rotate(349.2deg);
+  -o-transform: rotate(349.2deg);
+  transform: rotate(349.2deg);
+}
+[completion="98"] .piPercent .bar {
+  -webkit-transform: rotate(352.8deg);
+  -moz-transform: rotate(352.8deg);
+  -ms-transform: rotate(352.8deg);
+  -o-transform: rotate(352.8deg);
+  transform: rotate(352.8deg);
+}
+[completion="99"] .piPercent .bar {
+  -webkit-transform: rotate(356.40000000000003deg);
+  -moz-transform: rotate(356.40000000000003deg);
+  -ms-transform: rotate(356.40000000000003deg);
+  -o-transform: rotate(356.40000000000003deg);
+  transform: rotate(356.40000000000003deg);
+}
+[completion="100"] .piPercent .bar {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.piPercent:hover {
+  cursor: inherit;
+}
+.piPercent:hover > span {
+  width: 3.33em;
+  line-height: 3.33em;
+  font-size: 0.3em;
+  color: #307bbb;
+}
+.piPercent:hover:after {
+  top: 0.04em;
+  left: 0.04em;
+  width: 0.92em;
+  height: 0.92em;
+}
+.piPercent.dark {
+  background-color: #777777;
+}
+.piPercent.dark .bar,
+.piPercent.dark .fill {
+  border-color: #c6ff00 !important;
+}
+.piPercent.dark > span {
+  color: #777777;
+}
+.piPercent.dark:after {
+  background-color: #666666;
+}
+.piPercent.dark:hover > span {
+  color: #c6ff00;
+}
+.piPercent.green .bar,
+.piPercent.green .fill {
+  border-color: #4db53c !important;
+}
+.piPercent.green:hover > span {
+  color: #4db53c;
+}
+.piPercent.green.dark .bar,
+.piPercent.green.dark .fill {
+  border-color: #5fd400 !important;
+}
+.piPercent.green.dark:hover > span {
+  color: #5fd400;
+}
+.piPercent.orange .bar,
+.piPercent.orange .fill {
+  border-color: #dd9d22 !important;
+}
+.piPercent.orange:hover > span {
+  color: #dd9d22;
+}
+.piPercent.orange.dark .bar,
+.piPercent.orange.dark .fill {
+  border-color: #e08833 !important;
+}
+.piPercent.orange.dark:hover > span {
+  color: #e08833;
+}
+
+/* Core modification starts here...*/
+	[role="task"] .piPercent {
+	   float:right;
+	   margin-top:-2px;
+	}
+	[role="task"] .piPercent  .bar{
+		transition: rotate 0.2s ease;
+		-webkit-transition: rotate 0.2s ease;
+		-moz-transition: rotate 0.2s ease;
+		-ms-transition: rotate 0.2s ease;
+		-o-transition: rotate 0.2s ease;
+	}
+	
+	/* Outer circle colours by task status*/
+	[status="suspended"] .piPercent {
+	   background-color:rgb(180,180,180);
+	}
+	[status="suspended"] .piPercent span{
+	   color:#888;
+	}
+	[status="started"] .piPercent {
+	   background-color:rgb(39,89,149);
+	}
+	[status="queued"] .piPercent {
+	   background-color:rgb(201,33,0);
+	}
+	[status="terminated"] .piPercent {
+	   background-color:rgb(162,50,47);
+	}
+	/* Inner circle colours by task status*/
+	.piPercent:hover > span {
+	  color: #e08833;
+	}
+
+	 /* Sizing*/
+	.piPercent.big {
+	  font-size: 240px;
+	}
+	.piPercent.small {
+	  font-size:40px;
+	}
+	.piPercent:hover:after {
+	  top: 0.06em;
+	  left: 0.06em;
+	  width: 0.88em;
+	  height: 0.88em;
+	}

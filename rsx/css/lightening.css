@@ -1,0 +1,371 @@
+/*	CSS Lightening effect for ambience animations...	*/
+			@-webkit-keyframes lightening{
+			  0% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  2% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  3% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  4% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  5% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  7% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  9% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  42% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  43% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  44% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  45% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  46% {
+				background-color:rgba(55,55,99,0.7);
+			  }
+			  47% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  50% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  75% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  78% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  79% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  80% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  81% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  82% {
+				background-color:rgba(255,255,255,1);
+			  }
+			  83% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  84% {
+				background-color:rgba(200,200,222,0.9);
+			  }
+			  85% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  100% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			}
+			@-ms-keyframes lightening{
+			  0% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  2% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  3% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  4% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  5% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  7% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  9% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  42% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  43% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  44% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  45% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  46% {
+				background-color:rgba(55,55,99,0.7);
+			  }
+			  47% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  50% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  75% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  78% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  79% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  80% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  81% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  82% {
+				background-color:rgba(255,255,255,1);
+			  }
+			  83% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  84% {
+				background-color:rgba(200,200,222,0.9);
+			  }
+			  85% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  100% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			}
+			@-moz-keyframes lightening{
+			  0% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  2% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  3% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  4% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  5% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  7% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  9% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  42% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  43% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  44% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  45% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  46% {
+				background-color:rgba(55,55,99,0.7);
+			  }
+			  47% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  50% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  75% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  78% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  79% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  80% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  81% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  82% {
+				background-color:rgba(255,255,255,1);
+			  }
+			  83% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  84% {
+				background-color:rgba(200,200,222,0.9);
+			  }
+			  85% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  100% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			}
+			@-o-keyframes lightening{
+			  0% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  2% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  3% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  4% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  5% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  7% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  9% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  42% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  43% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  44% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  45% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  46% {
+				background-color:rgba(55,55,99,0.7);
+			  }
+			  47% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  50% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  75% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  78% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  79% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  80% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  81% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  82% {
+				background-color:rgba(255,255,255,1);
+			  }
+			  83% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  84% {
+				background-color:rgba(200,200,222,0.9);
+			  }
+			  85% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  100% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			}
+			@-keyframes lightening{
+			  0% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  2% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  3% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  4% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  5% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  7% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  9% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  42% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  43% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  44% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  45% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  46% {
+				background-color:rgba(55,55,99,0.7);
+			  }
+			  47% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  50% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  75% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  78% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  79% {
+				background-color:rgba(33,33,44,0.3);
+			  }
+			  80% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  81% {
+				background-color:rgba(22,22,22,0.3);
+			  }
+			  82% {
+				background-color:rgba(255,255,255,1);
+			  }
+			  83% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  84% {
+				background-color:rgba(200,200,222,0.9);
+			  }
+			  85% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			  100% {
+				background-color:rgba(22,22,22,0.2);
+			  }
+			}

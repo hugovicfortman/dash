@@ -1,0 +1,40 @@
+[data-objdect="lync"]{
+	background:red;
+	opacity:0.4;
+}
+/*
+	Will modify this to reflect presence in lync...
+	using data-status attributes!
+	remember to correct data-objdect="lync" to data-object="lync"
+	
+	
+	
+	See js set properties below...
+	
+	case 0: // available...
+		notificationObject.setAttribute('data-status', 'available');
+		break;
+	case 1: // offline...
+		notificationObject.setAttribute('data-status', 'offline');
+		break;
+	case 2: // away...
+	case 4:  //  :   
+	case 16: // away...
+		notificationObject.setAttribute('data-status', 'away');
+		break;
+	case 3: 
+	case 5: // inacall...
+		notificationObject.setAttribute('data-status', 'inacall');
+		break;
+	case 6: // outofoffice...
+	case 7: //    :
+	case 8: // outofoffice...
+		notificationObject.setAttribute('data-status', 'outofoffice');
+		break;
+	case 9:
+	case 15: // donotdisturb...
+		notificationObject.setAttribute('data-status', 'donotdisturb');
+		break;
+	case 10: // busy...
+		notificationObject.setAttribute('data-status', 'busy');
+*/

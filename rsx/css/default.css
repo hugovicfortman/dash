@@ -1,0 +1,402 @@
+/* Enforce margin absence... */
+	html,
+	body{
+		padding:0px;
+		margin:0px;
+		color:#ddd;
+	}
+	*{
+		color: transparent !important;
+	}
+	/*	Backdrop styling...	*/
+	body{
+		background-image: url('../images/backdrops/0.jpg');
+		transition: background-image 0.5s ease;
+		background-attachment: fixed;
+		background-size: cover;
+		
+	}
+/*	Preloader is given default colour	*/
+			#page-preloader{
+				background-color:rgba(200,200,200,0.7);
+				width:100%;
+				height:2.5px;
+				position:fixed;
+				top:0px;
+				left:0px;
+				z-index:10000;
+			}
+			#page-preloader .inner{
+				background-color:#020202;
+				width:0%;
+				height:100%;
+				transition:all 0.9s ease;
+			}
+			#page-preloader[state="loaded"] .inner{
+				width:100%;
+				background:#336699;
+			}
+/*	The top scroller is fixed at bottom-right corner of page...	*/
+			#page-top-scroller{
+				position:fixed;
+				bottom:30px;
+				right:30px;
+				opacity:0.4;
+				transition:opacity 0.2s;
+				-moz-transition:opacity 0.2s;
+				-ms-transition:opacity 0.2s;
+				-o-transition:opacity 0.2s;
+				-webkit-transition:opacity 0.2s;
+			}
+				#page-top-scroller:hover{
+					opacity:1;
+				}
+/*	Wrapper is given margin to accomodate preloader...	*/
+	#wrapper{
+		margin-top:2.5px;
+		min-height:669px;/*mozilla-desktop-fix*/
+		min-height:99.5vh;
+		background-color:rgba(60,160,160,0.1);
+	}
+/************************************************************************/
+/*				CSS STARTS HERE				*****************************/
+
+#wrapper>header{
+	background-color:rgba(10,10,150,0.6);
+	color:#eee;
+}
+#wrapper>header small{
+	color:#bbb;
+}
+.dash{
+	width:100%;
+	min-height:76vh;
+}
+.dash-margin-lg{
+	height:15px;
+	width:100%;
+}
+.dash-panel{
+	border:1px solid rgba(220,220,220,0.7);
+	border-radius:5px;
+	min-width:220px;
+}
+	.dash-panel a{
+		color:#99f;
+	}
+	.dash-panel[role="dash-profile-view"]{
+		background-color:rgb(59,149,245);
+		background-image: -webkit-linear-gradient(top, rgb(59,149,245) 0%, rgb(29,89,205) 40%, rgb(49,109,225) 50%, rgb(39,99,215) 55%, rgb(39,89,149) 100%);
+		background-image: -o-linear-gradient(top, rgb(59,149,245) 0%, rgb(29,89,205) 40%, rgb(49,109,225) 50%, rgb(39,99,215) 55%, rgb(39,89,149) 100%);
+		background-image: -moz-linear-gradient(top, rgb(59,149,245) 0%, rgb(29,89,205) 40%, rgb(49,109,225) 50%, rgb(39,99,215) 55%, rgb(39,89,149) 100%);
+		background-image: -ms-linear-gradient(top, rgb(59,149,245) 0%, rgb(29,89,205) 40%, rgb(49,109,225) 50%, rgb(39,99,215) 55%, rgb(39,89,149) 100%);
+		background-image: -webkit-gradient(linear, top left, bottom left, color-stop(0, rgb(59,149,245)), color-stop(0.4, rgb(29,89,205)), color-stop(0.5, rgb(49,109,225)), color-stop(0.55, rgb(39,99,215)), color-stop(1, rgb(39,89,149)));
+		margin:0px -15px;
+	}
+	.dash-panel[role="dash-page-view"]{
+		min-height:500px;
+		margin:0px -15px;
+		background-color:rgba(9,99,195,0.6);
+	}
+	.dash-panel[role="dash-hint-view"]{
+		position:absolute;
+		top:100%;
+		width:100%;
+		margin:0px -15px;
+	}
+.dash-header{
+	height:75px;
+	width:100%;
+}
+.dash-header > nav{
+	min-height:100%;
+	padding:0px 15px;
+	z-index:1100;
+}
+.dash-body{
+	min-height:400px;
+	width:100%;
+	padding:15px 7.5%;
+	background:rgba(0,0,0,0.4);
+}
+.profile-view-container{
+	height:200px;
+	width:220px;
+	margin:auto;
+	padding-top:7.5px;
+}
+.profile-view-image-holder{
+	height:160px;
+	width:160px;
+	background:#ccc;
+	margin:auto;
+	border-radius:50%;
+}
+.profile-view-e-colors{
+	position:absolute;
+	bottom:30px;
+	right:15px;
+	padding:2px;
+	display:block;
+}
+.profile-view-name-tag{
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+	letter-spacing:1.5px;
+	background:rgb(0,50,150);
+}
+	[role="e-colors"]{
+		font-size:large;
+		text-shadow:2px 2px 1px rgb(39,129,225);
+	}
+	[role="e-colors"] > *:first-child:after{
+		content:'_ ';
+		color:transparent;
+		margin-right:7.55px;
+		border-right: 2px solid rgba(59,149,245,0.3);
+	}
+	.e-colors-red{
+	color:#f22;
+	}
+	.e-colors-green{
+	color:#2f2;
+	}
+.msg-hi{
+	margin-left:15px;
+	display:inline-block;
+}
+#main-navigation{
+	margin-top:23px;
+}
+#main-navigation a{
+	color:#eee;
+}
+#main-navigation .active a{
+	background-color: rgba(89,179,255,0.5);
+	border-bottom:1px solid rgba(89,179,255,0.5);
+	margin-bottom:-1px;
+	color:#8f8;
+}
+#main-navigation li:not(.active) a,
+#main-navigation li:focus:not(.active) a,
+#main-navigation li:active:not(.active) a{
+	background-color: transparent;
+	margin:0px;
+	outline:0px;
+}
+#main-navigation li:not(.active) a:hover{
+	background-color: rgba(89,179,255,0.2);
+	color:#ff8;
+}
+.nav-backdrop{
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:75px;
+	left:0px;
+	transition:background-color 0.2s ease;
+}
+#main-navigation.in .nav-backdrop{
+	background-color:rgba(20,85,200,0.75);
+}
+.task-view-panel .btn:first-child{
+	position:relative;
+	cursor:default;
+}
+.task-view-panel > .row{
+	background:rgba(100,100,155,0.2);
+}
+.task-view-panel > .row div{
+	border:1px solid rgba(80,80,120,0.2);
+	border-bottom:0px;
+}
+.task-view-panel > .row:nth-child(3) > div:nth-child(2){
+	border-bottom:1px solid rgba(110,110,140,0.1);
+	padding:0px;
+}
+.task-view-panel > .row:nth-child(3) div:nth-child(2) div{
+	max-width:70px;
+}
+/*Handling panels*/
+.panel-pager{
+	width:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	padding:0px 15px;
+}
+.panel-page:not([data-active="true"]),
+[role="msg-board-txt"]{
+display:none;
+}
+/*The tasks in a list view*/
+.tasks [role="task"]:not(:active),
+.tasks [role="task"]:not(:focus){
+    box-shadow: 0px 1px 2px #777;
+}
+.tasks [role="task"]{
+	height:50px;
+	border-radius:0px;
+	position:relative
+}
+.task-name{
+	display:inline-block;
+	background-color:rgba(22,22,22,0.2);
+	padding:5px 15px;
+	font-size:large;
+}
+.task-completion{
+    position:absolute;
+	right:0px;
+}
+.task-completion span:after{
+	content:'%';
+}
+
+.btn[role="task"]:focus,
+.btn[role="task"]:active:focus,
+.btn[role="task"].active:focus,
+.btn[role="task"].focus,
+.btn[role="task"]:active.focus,
+.btn[role="task"].active.focus {
+  outline: none !important;
+}
+
+[role="subtask"] .btn-group{
+	min-width:100%;
+}
+	[role="subtask"] .btn-group .btn:nth-child(2){
+		min-width:70%;
+		text-align:left;
+	}
+.time-box h4,
+.quotes-box{
+	float:right;
+	clear:both;
+	margin-top:0px;
+	margin-bottom:15px;
+}
+/*	The quotes...	*/
+.quotes-box{
+	min-height:200px;
+	width:100%;
+	background:rgba(100,180,250,0.4);
+	box-shadow:0px 0px 20px cyan;
+	margin-top:15px;
+	padding:15px;
+}
+.quotes-box .lead span{
+	display:block;
+	text-align:center;
+	margin:5px;
+}
+.quotes-box .lead small:before{
+	display:inline-block;
+	content:'-';
+	font-weight:bold;
+}
+/*****************************	Weather box	**********************************/
+
+.weather-ambience[data-weather="clear"] .clouds{
+	display:none;
+}.weather-ambience:not([data-weather="stormy"]) .storm-clouds{
+	display:none;
+}
+.weather-ambience:not([data-weather="stormy"]) .rain,
+.weather-ambience[data-transitioning] .rain,
+.weather-ambience[data-weather="stormy"]:not([data-transitioning]) .sun-moon{
+	opacity:0;
+}
+
+.weather-ambience[data-transitioning] .rain,
+.weather-ambience[data-weather="clear"] .rain{
+	display:none;
+}
+.sun-moon,
+.rain{
+	transition: opacity 5s ease;
+	-webkit-transition: opacity 5s ease;
+	-moz-transition: opacity 5s ease;
+	-ms-transition: opacity 5s ease;
+	-o-transition: opacity 5s ease;
+}
+.sun-moon{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	margin:auto;
+}
+.weather-ambience[data-timeofday="daytime"] .sun-moon{
+	background-color:yellow;
+	box-shadow:0px 0px 50px lightyellow;
+}
+.weather-ambience[data-timeofday="night"] .sun-moon{
+	background-color:#efefef;
+	box-shadow:0px 0px 50px white;
+}
+.weather-box{
+	height:175px;
+	width:175px;
+	margin:0px auto;
+	padding:10%;
+}
+.flares{
+	opacity:0;
+}
+
+.sun,
+.moon{
+	position:relative;
+}
+.sun img,
+.moon img{
+	position:absolute;
+	transition: opacity 5s ease;
+}
+[intensity]:not(.active){
+	opacity:0;
+}
+.rays{
+	position:relative;
+	left:-250px;
+	top:-250px;
+	background:rgba(20,20,20,0);
+}
+.flares{
+	position:relative;
+	top:-250px;
+	left:-250px;
+	opacity:0.1;
+	transition:opacity 2s ease;
+}
+.weather-ambience{
+	padding:15px 0px;
+	overflow:hidden;
+	position:relative;
+	background-color:rgba(0,0,50,0.3);
+}
+.weather-ambience[data-timeofday="daytime"] .moon,
+.weather-ambience[data-timeofday="night"] .sun,
+.weather-ambience:not([data-timeofday="daytime"]) .flares{
+	display:none;
+}
+/*	lightening effect...	*/
+.weather-ambience[data-weather="stormy"]{
+	-ms-animation: lightening 5s infinite linear;
+	-moz-animation: lightening 5s infinite linear;
+	-webkit-animation: lightening 5s infinite linear;
+	-o-animation: lightening 5s infinite linear;
+	animation: lightening 5s infinite linear;
+}
+.animate-rain{
+	-ms-animation: rain 3s infinite linear;
+	-moz-animation: rain 3s infinite linear;
+	-webkit-animation: rain 3s infinite linear;
+	-o-animation: rain 3s infinite linear;
+	animation: rain 3s infinite linear;
+}
